@@ -1,0 +1,56 @@
+.post-list-container {
+  padding: 2rem 0;
+}
+
+.post-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.post-list-header h1 {
+  color: #1F2937;
+  font-size: 2rem;
+}
+
+.btn-create-post {
+  background-color: #4F46E5;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-create-post:hover {
+  background-color: #4338CA;
+}
+
+.post-list-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 0.375rem;
+  width: 300px;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.no-posts {
+  text-align: center;
+  padding: 3rem;
+  color: #6B7280;
+}
